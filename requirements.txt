@@ -1,0 +1,9 @@
+streamlit
+moviepy
+librosa
+opencv-python
+pydub
+matplotlib
+numpy
+soundfile
+ffmpeg-python

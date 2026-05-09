@@ -7,6 +7,18 @@ st.set_page_config(
 
 st.title("🎬 Audio Video Utility Studio")
 
-st.write("Welcome to the Media Processing Project")
+st.sidebar.title("Modules")
 
-st.sidebar.success("Select a module from sidebar")
+menu = st.sidebar.selectbox(
+    "Select Module",
+    [
+        "Audio Toolkit",
+        "Video Toolkit",
+        "Media Analyzer",
+        "Frame Processor",
+        "Audio Visualizer",
+        "Batch Processor"
+    ]
+)
+
+st.write("Selected:", menu)
